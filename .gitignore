@@ -1,1 +1,19 @@
+# Dependências
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Vercel
+.vercel/
+
+# Artefatos de build
+dist/
+coverage/
+
+# Arquivos de ambiente e segredos
+.env*
+!.env.example
+
 node_modules\n.next\n.env\n.env.local\n.env.development.local\n.env.test.local\n.env.production.local\nout\nbuild\n.DS_Store
