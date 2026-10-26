@@ -1,0 +1,76 @@
+export const siteConfig = {
+  name: "Estevan Barbisan",
+  role: "Analista de Sistemas | Desenvolvedor Back-End",
+  description: "Bacharel em Sistemas de Informação com sólida trajetória em Infraestrutura de TI e Análise de Sistemas. Especialista em SQL Server com transição focada em desenvolvimento back-end utilizando Java e Spring Boot para criar soluções escaláveis e eficientes.",
+  links: {
+    github: "https://github.com/ebarbisan",
+    linkedin: "https://www.linkedin.com/in/estevan-barbisan-a96881140",
+    email: "mailto:estevan.barbisan@gmail.com",
+  },
+  about: {
+    title: "Trajetória Técnica e Evolução Profissional",
+    introduction: "Minha jornada na tecnologia começou há mais de uma década, atuando na linha de frente da infraestrutura de TI. Essa base sólida em hardware, redes e suporte me proporcionou uma visão holística de como a tecnologia sustenta as operações de negócio.",
+    philosophy: "Com a graduação em Sistemas de Informação e a experiência como Analista de Sistemas Pleno, migrei meu foco para a inteligência dos dados e a construção de software. Hoje, uno minha expertise em SQL Server e modelagem de dados com o ecossistema Java/Spring para desenvolver APIs e sistemas que resolvem problemas reais.",
+    highlight: "Da infraestrutura ao back-end: transformando complexidade em eficiência.",
+  },
+  technologies: {
+    backend: [
+      { name: "Java", icon: "java", description: "Desenvolvimento de aplicações robustas e escaláveis." },
+      { name: "Spring Boot", icon: "spring", description: "Criação de microserviços e APIs REST eficientes." },
+      { name: "SQL Server", icon: "sqlserver", description: "Expertise avançada em consultas, tuning e administração." },
+      { name: "APIs REST", icon: "api", description: "Desenvolvimento de interfaces de comunicação padronizadas." },
+    ],
+    databases: [
+      { name: "SQL Server", icon: "sqlserver", description: "Domínio em T-SQL, Procedures e modelagem relacional." },
+      { name: "PostgreSQL", icon: "postgresql", description: "Implementação de bancos de dados open-source." },
+      { name: "MySQL", icon: "mysql", description: "Gestão de dados para aplicações web." },
+      { name: "Modelagem de Dados", icon: "model", description: "Estruturação de entidades e normalização." },
+    ],
+    web: [
+      { name: "TypeScript", icon: "ts", description: "Tipagem forte para aplicações React/Next.js." },
+      { name: "Next.js", icon: "nextjs", description: "Framework moderno para alta performance e SEO." },
+      { name: "Tailwind CSS", icon: "tailwind", description: "Estilização ágil e responsiva com utilitários." },
+      { name: "JavaScript", icon: "js", description: "Lógica de interação e scripts dinâmicos." },
+    ],
+    tools: [
+      { name: "Git & GitHub", icon: "git", description: "Controle de versionamento e colaboração." },
+      { name: "Linux", icon: "linux", description: "Administração de sistemas e servidores." },
+      { name: "Maven", icon: "maven", description: "Gestão de dependências e build Java." },
+      { name: "Vercel", icon: "vercel", description: "CI/CD e deploy contínuo." },
+    ],
+  },
+  projects: [
+    {
+      title: "Lavanderia Laviky",
+      description: "Digitalização completa de processos institucionais, desde a apresentação de serviços até a captação de leads.",
+      goal: "Substituir sistemas legados por uma presença digital moderna e eficiente.",
+      features: ["Gestão de Contatos", "Apresentação Institucional", "Foco em UX/UI"],
+      tech: ["Java", "Spring Boot", "MySQL", "Thymeleaf"],
+      challenges: "Migração de lógica PHP para Java, garantindo segurança contra SQL Injection e CSRF.",
+      github: "https://github.com/ebarbisan/laviky",
+      demo: "https://laviky.com.br",
+    },
+    {
+      title: "Essência do Sul",
+      description: "Plataforma de curadoria de vinhos com foco em elegância e performance de carregamento.",
+      goal: "Criar uma vitrine digital sofisticada para o segmento de luxo.",
+      features: ["Catálogo de Produtos", "SEO Otimizado", "Design Minimalista"],
+      tech: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma"],
+      challenges: "Otimização de imagens de alta resolução e renderização server-side para SEO.",
+      github: "https://github.com/ebarbisan/essencia-do-sul",
+      demo: "#",
+    },
+  ],
+  principles: [
+    { title: "Visão Holística", description: "Compreender desde a camada de hardware/infra até a entrega do software." },
+    { title: "Dados Primeiro", description: "Modelagem de dados eficiente como base para qualquer aplicação." },
+    { title: "Evolução Contínua", description: "Aprendizado constante para acompanhar a evolução do ecossistema Java." },
+    { title: "Foco em Resultado", description: "Desenvolver código que resolve a dor do negócio e agrega valor real." },
+  ],
+  professionalGoals: [
+    "Arquitetura de Microserviços com Spring Cloud",
+    "Aprofundamento em Testes Automatizados (JUnit/Mockito)",
+    "Implementação de pipelines de CI/CD avançados",
+    "Certificações em Cloud Computing (AWS/Azure)",
+  ],
+}
