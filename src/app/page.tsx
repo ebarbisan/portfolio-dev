@@ -23,7 +23,7 @@ export default function Home() {
             Estevan Barbisan
           </div>
           <p className="text-text-secondary text-sm mb-6">
-            &copy; {new Date().getFullYear()} — Construindo o futuro com código e lógica.
+            &copy; 2026 — Construindo o futuro com código e lógica.
           </p>
           <div className="flex justify-center gap-6 text-text-secondary">
             <a href="https://github.com/ebarbisan" target="_blank" rel="noopener noreferrer" className="hover:text-accent-green transition-colors text-xs">GitHub</a>

@@ -7,7 +7,7 @@ import { siteConfig } from '@/data/siteConfig';
 import {
   RiDoubleQuotesL,
   RiArrowRightUpLine,
-  RiCodeSlashesLine,
+  RiCodeSSlashLine,
   RiTerminalBoxLine,
   RiCpuLine
 } from 'react-icons/ri';
@@ -77,7 +77,7 @@ export default function About() {
                 description="Busca constante por entender a arquitetura e o 'porquê' das soluções."
               />
               <AboutCard
-                icon={<RiCodeSlashesLine className="text-accent-green" />}
+                icon={<RiCodeSSlashLine className="text-accent-green" />}
                 title="Prática"
                 description="Transformação de conceitos teóricos em projetos funcionais."
               />

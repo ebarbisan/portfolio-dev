@@ -4,7 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { siteConfig } from '@/data/siteConfig';
 import {
-  RiCodeSlashesLine,
+  RiCodeSSlashLine,
   RiDatabase2Line,
   RiGlobalLine,
   RiSettings4Line
@@ -14,7 +14,7 @@ export default function Technologies() {
   const categories = [
     {
       title: "Back-end",
-      icon: <RiCodeSlashesLine className="text-accent-green" />,
+      icon: <RiCodeSSlashLine className="text-accent-green" />,
       items: siteConfig.technologies.backend,
       color: "border-accent-green/30"
     },
