@@ -11,7 +11,7 @@ O projeto utiliza uma estética **Dark Tech**, com uma paleta de cores baseada e
 ## 🛠️ Stack Tecnológica
 O site foi construído utilizando as tecnologias mais modernas do ecossistema React:
 
-- **Framework:** [Next.js 14+](https://nextjs.org/) (App Router)
+- **Framework:** [Next.js 16.4.3](https://nextjs.org/) (App Router)
 - **Linguagem:** [TypeScript](https://www.typescriptlang.org/)
 - **Estilização:** [Tailwind CSS](https://tailwindcss.com/)
 - **Animações:** [Framer Motion](https://www.framer.com/motion/)
