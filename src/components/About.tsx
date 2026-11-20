@@ -52,7 +52,7 @@ export default function About() {
             <div className="relative p-6 rounded-2xl bg-surface border border-border-subtle group hover:border-accent-green/50 transition-colors duration-300">
               <RiDoubleQuotesL className="absolute -top-4 -left-2 text-accent-green/30 w-12 h-12" />
               <p className="text-xl font-medium text-foreground italic relative z-10">
-                "{siteConfig.about.highlight}"
+                &quot;{siteConfig.about.highlight}&quot;
               </p>
             </div>
           </motion.div>
@@ -94,12 +94,12 @@ export default function About() {
                 <span className="text-accent-green">const</span> profile = {'{'}
               </div>
               <div className="pl-4">
-                passion: <span className="text-accent-cyan">'Back-end Development'</span>,
+                passion: <span className="text-accent-cyan">&apos;Back-end Development&apos;</span>,
               </div>
               <div className="pl-4">
-                learningRate: <span className="text-accent-cyan">'Exponential'</span>,
+                learningRate: <span className="text-accent-cyan">&apos;Exponential&apos;</span>,
                 <br />
-                currentFocus: <span className="text-accent-cyan">'API Architecture'</span>,
+                currentFocus: <span className="text-accent-cyan">&apos;API Architecture&apos;</span>,
               </div>
               <div className="flex items-center gap-2">
                 {'}'};

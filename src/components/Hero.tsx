@@ -79,7 +79,7 @@ export default function Hero() {
                 <div className="w-2 h-2 rounded-full bg-green-500/50" />
               </div>
               <div className="text-accent-green">public class <span className="text-foreground">Developer</span> {'{'}</div>
-              <div className="pl-4 text-text-secondary">String status = <span className="text-accent-cyan">"Learning"</span>;</div>
+              <div className="pl-4 text-text-secondary">String status = <span className="text-accent-cyan">&quot;Learning&quot;</span>;</div>
               <div className="pl-4 text-text-secondary">void evolve() {'{'}</div>
               <div className="pl-8 text-text-secondary">study(JAVA_SPRING);</div>
               <div className="pl-8 text-text-secondary">build(PROJECTS);</div>
